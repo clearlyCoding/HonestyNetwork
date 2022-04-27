@@ -1,0 +1,28 @@
+{% load tags %}
+	<div  class="card  teal darken-1">
+		<div class = "card-content white-text">
+			<span class="card-title">
+				<p> Set ${{set.setAmt}}.00  </p>
+				<div class="divider"></div>
+
+				{% if set.setUsers %}
+					<h6> You and {{set.setUsers|js_length}} others have registered. {{set|checkremaining}} more participants required.</h6>
+				{% endif %}
+
+				{%if set.setReady %}
+				<h8> You  have to pay ${{set.setAmt|div:set.setTime }} every {{set.setRepitations|tlate3}} for {{set.setTime}} {{set.setRepitations|tlate}} </h8>
+				{%else%}
+				<h8> You will have to pay ${{set.setAmt|div:set.setTime }} every {{set.setRepitations|tlate3}} for {{set.setTime}} {{set.setRepitations|tlate}} </h8>
+				{%endif%}
+			</span>
+		</div>
+
+		<div class = "card-action"  align = "center">
+			<form action = "{% url 'main:selectedSet' %}" method="POST">
+				<input type ="hidden" name="setID" value = "{{set.setID}}" >
+				<button class="btn waves-effect waves-light teal darken-4" type ="submit" value ="Select This Set">See details</button>
+				{% csrf_token %}
+			</form>
+			<span class = "teal-text"> {{set.setID}}</span>
+		</div>
+	</div>

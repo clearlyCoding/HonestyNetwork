@@ -1,0 +1,12 @@
+[Sun Jan 31 06:25:02.308987 2021] [mpm_event:notice] [pid 741:tid 140475327454144] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sun Jan 31 06:25:02.309053 2021] [core:notice] [pid 741:tid 140475327454144] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jan 31 15:14:06.959591 2021] [mpm_event:notice] [pid 717:tid 140505513569216] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sun Jan 31 15:14:06.966893 2021] [core:notice] [pid 717:tid 140505513569216] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jan 31 15:15:28.810540 2021] [mpm_event:notice] [pid 717:tid 140505513569216] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 31 15:15:29.021336 2021] [mpm_event:notice] [pid 717:tid 140505513569216] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sun Jan 31 15:15:29.021393 2021] [core:notice] [pid 717:tid 140505513569216] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jan 31 15:20:31.555387 2021] [mpm_event:notice] [pid 717:tid 140505513569216] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 31 15:20:31.675872 2021] [mpm_event:notice] [pid 717:tid 140505513569216] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations
+[Sun Jan 31 15:20:31.675911 2021] [core:notice] [pid 717:tid 140505513569216] AH00094: Command line: '/usr/sbin/apache2'

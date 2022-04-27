@@ -1,0 +1,47 @@
+{% load static %}
+{% block content %}
+<!-- I honeslty don't know what this does.. -->
+<section class="app-section padding-top padding-bottom">
+        <div class="animation-circle-inverse">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div class="animation-circle-inverse two">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mobile-paroller">
+                        <img src="{% static 'main/images/withdraw/mobile.png" data-paroller-type="foreground"
+                            data-paroller-factor-lg=".4" data-paroller-direction="vertical" data-paroller-factor="-.4"
+                            alt="withdraw">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xl-7">
+                    <div class="app-content">
+                        <div class="section-header light-color left-style">
+                            <h2 class="title">We're working to move to mobile!</h2>
+                            <p>We'll let you know when we can bother your phone ;)</p>
+                        </div>
+                        <ul class="app-button">
+                            <li>
+                                <a href="#0">
+                                    <img src="{% static 'main/images/button/android.png'%}" alt="button">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0">
+                                    <img src="{% static 'main/images/button/ios.png'%}" alt="button">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{%endblock%}

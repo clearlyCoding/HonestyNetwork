@@ -1,0 +1,208 @@
+/*Banner-Section Starts Here*/
+.banner-section {
+    padding: 330px 0 280px;
+    background-image: -moz-linear-gradient(-25deg, rgb(32, 81, 233) 28%, rgb(46, 156, 240) 58%, rgb(59, 231, 247) 100%);
+    background-image: -webkit-linear-gradient(-25deg, rgb(32, 81, 233) 28%, rgb(46, 156, 240) 58%, rgb(59, 231, 247) 100%);
+    @include breakpoint(lg) {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        @include breakpoint(max-xl) {
+            padding: 243px 0 213px;
+        }
+    }
+    position: relative;
+    overflow: hidden;
+    &::before {
+        @extend %center;
+        width: 100%;
+        height: 100%;
+        background: url(./img/banner-shape.png) no-repeat top center;
+        background-size: contain;
+    }
+    @include breakpoint(max-lg) {
+        padding: 219px 0 170px;
+        &::before {
+            background-size: cover;
+        }
+    }
+    @include breakpoint(max-md) {
+        padding: 219px 0 160px;
+    }
+    @include breakpoint(max-sm) {
+        padding: 202px 0 150px;
+    }
+}
+.banner-content {
+    position: relative;
+    z-index: 1;
+    .title {
+        font-size: 60px;
+        line-height: 92px;
+        color: $white-color;
+        margin-bottom: 37px;
+    }
+    p {
+        color: $white-color;
+        margin-bottom: 55px;
+    }
+    .custom-button {
+        padding: 0 30px;
+        background: transparent;
+        font-family: $body;
+        border: 3px solid $white-color;
+        font-size: 20px;
+        font-weight: 600;
+        @include border-radius(0);
+    }
+    @include breakpoint(lg) {
+        @include breakpoint(max-xl) {
+            .title {
+                font-size: 48px;
+                line-height: 60px;
+            }
+            p {
+                max-width: 480px;
+                margin-bottom: 43px;
+            }
+        }
+        p {
+            max-width: 575px;
+        }
+    }
+    @include breakpoint(max-md) {
+        @include breakpoint(sm) {
+            .title {
+                font-size: 48px;
+                line-height: 60px;
+            }
+            p {
+                max-width: 480px;
+                margin-bottom: 43px;
+            }
+        }
+    }
+    @include breakpoint(max-sm) {
+        .title {
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: 28px;
+        }
+        p {
+            margin-bottom: 31px;
+        }
+    }
+}
+.banner-thumb {
+    margin-left: 40px;
+    margin-right: -300px;
+    position: relative;
+    height: 400px;
+    img {
+        width: 100%;
+    }
+    .thumb-1,
+    .thumb-2,
+    .thumb-3,
+    .thumb-4,
+    .coin {
+        position: absolute;
+        display: none;
+    }
+    .thumb-1 {
+        width: 100%;
+        display: block;
+        bottom: 0;
+        left: 0;
+    }
+    .thumb-2 {
+        display: block;
+        left: 0;
+        bottom: 40px;
+        width: 203px;
+    }
+    .thumb-3 {
+        display: block;
+        right: 0;
+        bottom: 40px;
+    }
+    .thumb-4 {
+        display: block;
+        left: 180px;
+        width: 267px;
+        bottom: 40px;
+        animation: round-3 3s alternate infinite;
+        -webkit-animation: round-3 3s alternate infinite;
+        -moz-animation: round-3 3s alternate infinite;
+    }
+    .coin {
+        display: block;
+        width: 77px;
+        height: 77px;
+        right: 31px;
+        bottom: 118px;
+        img {
+            position: absolute;
+            animation: bela3 20s linear infinite;
+            -webkit-animation: bela3 20s linear infinite;
+            -moz-animation: bela3 20s linear infinite;
+            &:nth-child(2) {
+                animation-delay: 4s;
+                -webkit-animation-delay: 4s;
+                -moz-animation-delay: 4s;
+            }
+            &:nth-child(3) {
+                animation-delay: 8s;
+                -webkit-animation-delay: 8s;
+                -moz-animation-delay: 8s;
+            }
+            &:nth-child(4) {
+                animation-delay: 12s;
+                -webkit-animation-delay: 12s;
+                -moz-animation-delay: 12s;
+            }
+            &:nth-child(5) {
+                animation-delay: 16s;
+                -webkit-animation-delay: 16s;
+                -moz-animation-delay: 16s;
+            }
+        }
+    }
+    @media screen and (max-width: 1649px){
+        margin-left: 20px;
+        margin-right: -200px;
+        .thumb-4 {
+            width: 200px;
+            left: 150px;
+        }
+        .thumb-2 {
+            width: 150px;
+        }
+    }
+    @media screen and (max-width: 1440px) {
+        margin-right: -150px;
+    }
+    @media screen and (max-width: 1365px) {
+        margin-right: -100px;
+        .thumb-4 {
+            width: 150px;
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        margin-right: -50px;
+        .thumb-4 {
+            width: 150px;
+            left: 0;
+        }
+        .thumb-2 {
+            display: none;
+        }
+        .thumb-3 {
+            width: 230px;
+        }
+    }
+    @media screen and (max-width: 1130px) {
+        margin-right: 0;
+    }
+    @media screen and (max-width: 991px) {
+        display: none;
+    }
+}

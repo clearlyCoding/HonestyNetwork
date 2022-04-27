@@ -1,0 +1,57 @@
+{% extends 'main/mainpage.html' %}
+
+{% block content %}
+{% load tags %}
+
+<h3><span class ="teal-text text-darken-2">Welcome Back {{user.username}}</span></h3>
+
+<div class = "z-depth-3">
+		<div class ="row">
+			<br/>
+			<h4 style = "margin-left: 25px"> On-going Sets </h4>
+			<div class = 'divider'></div>
+		{% for IDS in SIDS %}
+			{% for set in Sets %}
+				{% if IDS == set.setID %}
+					{% if set.setReady %}
+
+					<div class ="col s4">
+						<p class ="z-depth-3">
+							{% include 'main/includes/cards.html' %}
+						</p>
+					</div>
+
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+
+		</div>
+		<div class ="row">
+			<h4 style = "margin-left: 25px" > Registered Sets </h4>
+			<div class = 'divider'></div>
+		{% for IDS in SIDS %}
+			{% for set in Sets %}
+				{% if IDS == set.setID %}
+					{% if not set.setReady %}
+
+					<div class ="col s4">
+						<p class ="z-depth-3">
+							{% include 'main/includes/cards.html' %}
+						</p>
+					</div>
+					{% else %}
+						<div class = "center-align">
+							<p> There are no sets that you are registered for.</p>
+							<p><a href="/sets"> Click here to Look for Sets</a></p>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+
+		</div>
+	</div>
+
+
+
+{% endblock %}

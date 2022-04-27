@@ -1,0 +1,199 @@
+/*Sidebar CSS Starts Here*/
+.category-list {
+    .category-item {
+        padding: 0;
+        background: #f5f6fe;
+        border: 1px solid $border-color;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        >a {
+            @extend %flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            color: $title-color;
+            .amount {
+                &::before {
+                    content: "(";
+                }
+                &::after {
+                    content: ")";
+                }
+            }
+        }
+        ul {
+            padding: 10px 20px;
+            display: none;
+            li {
+                a {
+                    position: relative;
+                    padding-left: 15px;
+                    color: $body-color;
+                    &::after {
+                        @extend %pa;
+                        width: 5px;
+                        height: 5px;
+                        @include border-radius(50%);
+                        background: rgba($color: $primary-color, $alpha: .5);
+                        top: 12px;
+                        @include transition($transition);
+                        left: 0; 
+                    }
+                    &:hover {
+                        color: $primary-color;
+                        &::after {
+                            background: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+        &.active {
+            ul {
+                display: block;
+            }
+        }
+        &.open {
+            .category-title {
+                color: $white-color; 
+                background: $primary-color;
+            }
+        }
+    }
+}
+aside {
+    position: sticky;
+    top: 130px;
+    @include border-radius(10px);
+    background: $white-color;
+    box-shadow: 0px 0px 7.8px 5.2px rgba(0, 0, 0, 0.03);
+    padding: 40px 30px;
+    margin-top: 70px;
+    @media screen and (max-width: 379px) {
+        padding: 40px 20px;
+    }
+    @include breakpoint(lg) {
+        margin-top: 0;
+    }
+}
+.widget {
+    margin-bottom: 30px;
+    .widget-title {
+        text-transform: capitalize;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    @include breakpoint(sm) {
+        margin-bottom: 60px;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &.widget-post {
+        ul {
+            li {
+                padding: 0;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                a {
+                    display: block;
+                    padding: 15px 20px;
+                    background: #f0fcf4;
+                    .title {
+                        font-size: 18px;
+                        margin: 0;
+                        line-height: 28px;
+                    }
+                    span {
+                        font-style: italic;
+                        color: $body-color;
+                        font-size: 14px;
+                    }
+                }
+                &:nth-of-type(3n + 2) {
+                    a {
+                        background: #fff6f6;
+                    }
+                }
+                &:nth-of-type(3n + 3) {
+                    a {
+                        background: #f5f6fe;
+                    }
+                }
+            }
+        }
+    }
+    &.widget-download {
+        ul {
+            li {
+                padding: 0;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                a {
+                    padding: 15px 20px;
+                    color: $title-color;
+                    background: #f5f6fe;
+                    display: block;
+                    &.active {
+                        background: $primary-color;
+                        color: $white-color;
+                    }
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    &.widget-tags {
+        ul {
+            @extend %flex;
+            li {
+                padding: 5px;
+                a {
+                    padding: 10px 20px;
+                    color: $title-color;
+                    background: #f5f6fe;
+                    border: 1px solid $border-color;
+                }
+            }
+        }
+    }
+    &.widget-banner {
+        text-align: center;
+        padding: 35px 10px;
+        background: $primary-color;
+        position: relative;
+        * {
+            color: $white-color;
+            position: relative;
+            z-index: 1;
+        }
+        &::before {
+            width: 80%;
+            height: 80%;
+            @extend %center;
+            background: url(./img/question.png) no-repeat center center;
+            background-size: contain;
+            opacity: .08;
+        }
+        .title {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        a {
+            font-size: 24px;
+            font-weight: 700;
+            @include breakpoint(max-sm) {
+                font-size: 20px;
+            }
+        }
+    }
+}

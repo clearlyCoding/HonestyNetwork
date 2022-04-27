@@ -1,0 +1,274 @@
+.header-section {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    @include transition($transition);
+    @include breakpoint(lg) {
+        top: 58px;
+    }
+    &.active {
+        background: $primary-color;
+        animation-name: fadeIn;
+        -webkit-animation-name: fadeIn;
+        -moz-animation-name: fadeIn;
+        animation-duration: .5s;
+        -moz-animation-duration: .5s;
+        -webkit-animation-duration: .5s;
+        top: 0;
+        .header-button {
+            background: $white-color;
+            color: $primary-color;
+        }
+    }
+}
+
+.header-area {
+    @extend %flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    position: relative;
+    .logo {
+        width: 220px;
+        @include breakpoint(max-lg) {
+            width: 180px;
+            a {
+                display: block;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        @include breakpoint(max-sm) {
+            width: 150px;
+        }
+    }
+}
+
+.menu {
+    li {
+        a {
+            color: $white-color;
+            text-transform: capitalize;
+            font-family: $body;
+        }
+    }
+    @include breakpoint(max-lg) {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        @include transition($transition);
+        @include transform(scaleY(0));
+        transform-origin: top;
+        z-index: 99;
+        width: 100%;
+        max-height: calc(100vh - 100px);
+        overflow-y: scroll;
+        background: $white-color;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        &.active {
+            @include transform(scaleY(1));
+        }
+        li {
+            border-bottom: 1px solid $primary-color;
+            padding: 0;
+            a {
+                padding: 10px 15px;
+                color: $title-color;
+                display: block;
+                display: flex;
+                justify-content: space-between;
+                &::after {
+                    color: $title-color;
+                }
+                &.header-button {
+                    text-align: center;
+                    background: $primary-color !important;
+                    color: $white-color !important;
+                }
+            }
+            .submenu {
+                display: none;
+                padding-left: 20px;
+                li {
+                    &:last-child {
+                        border: none;
+                    }
+                    a {
+                        text-transform: capitalize;
+                        padding: 8px 15px;
+                    }
+                }
+            }
+            &:hover {
+                border-color: $primary-color;
+                >a {
+                    background: $primary-color;
+                    color: $white-color;
+                    &::after {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    @include breakpoint(lg) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        li {
+            padding: 5px;
+            position: relative;
+            a {
+                padding: 10px 5px;
+                font-weight: 400;
+                @include breakpoint(xl) {
+                    padding: 10px;
+                    font-size: 20px;
+                }
+                @include breakpoint(xxl) {
+                    padding: 10px 15px;
+                }
+            }
+            .submenu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 220px;
+                @include transition($transition);
+                opacity: 0;
+                visibility: hidden;
+                @include transform(translateY(20px));
+                box-shadow: 0 0 30px rgba($color: $white-color, $alpha: .3);
+                li {
+                    width: 100%;
+                    border-bottom: 1px solid $primary-color;
+                    background: $white-color;
+                    padding: 0;
+                    a {
+                        padding: 5px 10px 5px 15px;
+                        color: $title-color;
+                        text-transform: capitalize;
+                        display: flex;
+                        justify-content: space-between;
+                        &.active {
+                            padding-left: 20px;
+                            background: $primary-color;
+                            color: $white-color;
+                            &::after {
+                                color: $white-color;
+                            }
+                        }
+                        @include breakpoint(xl) {
+                            font-size: 16px;
+                        }
+                    }
+                    &:hover {
+                        >a {
+                            padding-left: 20px;
+                            background: $primary-color;
+                            color: $white-color;
+                            &::after {
+                                color: $white-color;
+                            }
+                        }
+                    }
+                    &:first-child {
+                        border-top: 1px solid $primary-color;
+                    }
+                    .submenu {
+                        top: -1px;
+                        left: 100%;
+                    }
+                }
+            }
+            &:hover {
+                >.submenu {
+                    opacity: 1;
+                    visibility: visible;
+                    @include transform(translateY(0));
+                }
+            }
+        }
+    }
+}
+
+.menu-item-has-children {
+    >a {
+        align-items: center;
+        &::after {
+            content: "\f0d7";
+            font-weight: 600;
+            font-family: "Font Awesome 5 Free";
+            margin-left: 5px;
+        }
+    }
+    @include breakpoint(lg) {
+        &.open {
+            .submenu {
+                display: block !important;
+            }
+        }
+        .submenu {
+            display: block !important;
+        }
+    }
+}
+
+.header-bar {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    span {
+        display: inline-block;
+        height: 3px;
+        width: 100%;
+        @include transition($transition);
+        background-color: $white-color;
+        position: absolute;
+        left: 0;
+        &:nth-child(2) {
+            top: 52%;
+            transform: translateY(-65%);
+        }
+        &:first-child {
+            top: 0;
+        }
+        &:last-child {
+            bottom: 0;
+        }
+    }
+    &.active {
+        span {
+            &:first-child {
+                @include transform (rotate(45deg) translate(6px, 13px));
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:last-child {
+                @include transform (rotate(-45deg) translate(3px, -9px));
+            }
+        }
+    }
+}
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}

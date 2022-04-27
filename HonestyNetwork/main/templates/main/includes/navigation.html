@@ -1,0 +1,53 @@
+{%load static %}
+
+<nav class="z-depth-0">
+	
+{% if curr_ == 'home'%}
+	{% if user.is_authenticated %}
+		<div class="nav-wrapper teal" id = "grad1">
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href = '/'>Dashboard</a></li>
+				<li><a href = '/sets'>Look for Sets</a></li>
+				<li><a href = '/logout'>Log Out</a></li>
+			</ul>
+		</div>
+	{% else %}
+		<div class="nav-wrapper white" id = "grad1">
+			<a href="/" class="brand-logo center"><img src="{% static 'main/images/intrologo.png' %}" width = "auto" height= "59"/></a>
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li><a href = '/sets' class="waves-effect waves-teal btn-flat teal-text">See What Fits You</a></li>
+			</ul>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li ><a class="waves-effect waves-light btn" href = '/register' >Register</a></li>
+				<li><a class="waves-effect waves-teal btn-flat teal-text" href = '/login' >Login</a></li>
+			</ul>
+		</div>
+	{% endif %}
+
+{%else%}
+
+	{% if user.is_authenticated %}
+	<div class="nav-wrapper teal" id = "grad1">
+	<a href="/" class="brand-logo center"><img src="{% static 'main/images/Asset1.jpg' %}" width = "auto" height= 50/></a>
+	<ul id="nav-mobile" class="right hide-on-med-and-down">
+		<li><a href = '/'>Dashboard</a></li>
+		<li><a href = '/sets'>Look for Sets</a></li>
+		<li><a href = '/logout'>Log Out</a></li>
+	</ul>
+	</div>
+	{% else %}
+	<div class="nav-wrapper white" id = "grad1">
+			<a href="/" class="brand-logo center"><img src="{% static 'main/images/intrologo.png' %}" width = "auto" height= "59"/></a>
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li><a href = '/sets' class="waves-effect waves-teal btn-flat teal-text">See What Fits You</a></li>
+			</ul>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li ><a class="waves-effect waves-light btn" href = '/register' >Register</a></li>
+				<li><a class="waves-effect waves-teal btn-flat teal-text" href = '/login' >Login</a></li>
+			</ul>
+		</div>
+	{% endif %}
+{%endif%}
+
+
+</nav>

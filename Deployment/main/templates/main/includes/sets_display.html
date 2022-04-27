@@ -1,0 +1,64 @@
+{% load static %}
+{%block content%}
+<section class="ticket-section padding-bottom padding-top bg_img" data-background="{% static 'main/images/ticket/ticket-bg01.jpg'%}">
+        <div class="container">
+            <div class="section-header light-color">
+                <span class="cate">The best way to save!</span>
+                <h2 class="title">Choose Your Plan</h2>
+                <p>You're a fiscally responisble adult, you save anyways. So let us help you take advantage of your savings, by participating in a set!</p>
+            </div>
+            <div class="ticket-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="ticket-item bg-1">
+                            <div class="ticket-thumb">
+                                <div class="thumb">
+                                    <img src="{% static 'main/images/ticket/ticket02.png'%}" alt="ticket">
+                                </div>
+                            </div>
+                            <div class="ticket-content">
+                                <span class="name">Set 1</span>
+                                <h3 class="title">$2500.00</h3>
+                                <span class="duration">10 months</span>
+                                <p class="info">Monthly deposit of $250.00</p>
+                                <a href="#0" class="custom-button">Tell me more!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ticket-item bg-2">
+                            <div class="ticket-thumb">
+                                <div class="thumb">
+                                    <img src="{% static 'main/images/ticket/ticket03.png'%}" alt="ticket">
+                                </div>
+                            </div>
+                            <div class="ticket-content">
+                                <span class="name">Set 2</span>
+                                <h3 class="title">$250.00</h3>
+                                <span class="duration">10 months</span>
+                                <p class="info">Monthly Deposit of $25.00</p>
+                                <a href="#0" class="custom-button">Tell me more!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ticket-item bg-3">
+                            <div class="ticket-thumb">
+                                <div class="thumb">
+                                    <img src="{% static 'main/images/ticket/ticket03.png'%}" alt="ticket">
+                                </div>
+                            </div>
+                            <div class="ticket-content">
+                                <span class="name">Set 3</span>
+                                <h3 class="title">$25.00</h3>
+                                <span class="duration">10 months</span>
+                                <p class="info">Monthly Deposit of $2.50</p>
+                                <a href="#0" class="custom-button">Tell me more!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,55 @@
+ {%load static%}
+
+ {%block content%}
+
+ <header class="header-section">
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">
+                    <a href="/"><img src=  "{% static 'main/images/logo/logo.png' %}" alt="logo"></a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#0">About</a>
+                    </li>
+                    <!-- need to add conditional login menu options -->
+                    {% if user.is_authenticated %}
+                    <li>
+                        <a href="/logout">Logout</a>
+                    </li>                    
+                    {% else %}
+                    <li>
+                        <a href="/login">Sign-in</a>
+                    </li>
+                    {% endif %}
+                    <li>
+                        <a href="#0">Updates!</a>
+<!--                         <ul class="submenu">
+                            <li>
+                                <a href="blog-grid.html">Blog grid</a>
+                            </li>
+                            <li>
+                                <a href="blog-classic.html">Blog classic</a>
+                            </li>
+                            <li>
+                                <a href="blog-details.html">Blog details</a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li>
+                        <a href="#0">Check out the Sets!</a>
+                    </li>
+                </ul>
+                <div class="header-bar d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    {% endblock %}

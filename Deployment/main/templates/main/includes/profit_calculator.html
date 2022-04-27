@@ -1,0 +1,84 @@
+{% load static %}
+ {%block content%}
+ <section class="profit-section padding-bottom padding-top">
+        <div class="trigon-3">
+            <img class="wow slideInRight" src="{% static 'main/css/img/trigon05.png'%}" alt="css" data-wow-delay="1s"
+                data-wow-duration="1s">
+        </div>
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-xl-3">
+                    <div class="profit-thumb bg_img" data-background="{% static 'main/images/profit/profit-bg01.png'%}">
+                        <div class="thumb-1">
+                            <img src="{% static 'main/images/profit/profit01.png'%}" alt="profit">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 pl-xl-5">
+                    <div class="section-header left-style">
+                        <span class="cate">Calculate something here</span>
+                        <h2 class="title">Calculate Your Profit?</h2>
+                        <p>Wouldn't really be a profit would it, dummy? just a cash in on early savings. But go ahead and do absolutely nothing below! It won't work :D</p>
+                    </div>
+                    <form class="profit-form row justify-content-center">
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Plan</h6>
+                            <select class="select-bar">
+                                <option value="pro1">Choose Plan</option>
+                                <option value="pro2">Gold Plan</option>
+                                <option value="pro3">Platinum Plan</option>
+                                <option value="pro4">Standard Plan</option>
+                                <option value="pro5">Primary Plan</option>
+                                <option value="pro6">VIP Plan</option>
+                                <option value="pro7">Free Plan</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Compounding</h6>
+                            <select class="select-bar">
+                                <option value="pro20">20%</option>
+                                <option value="pro21">25%</option>
+                                <option value="pro22">30%</option>
+                                <option value="pro23">35%</option>
+                                <option value="pro24">36%</option>
+                                <option value="pro25">40%</option>
+                                <option value="pro26">45%</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Minimum Investment</h6>
+                            <input type="text" placeholder="$1500.00">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Maximum Investment</h6>
+                            <input type="text" placeholder="$1500.00">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Investment</h6>
+                            <select class="select-bar">
+                                <option value="pro31">$6000.00</option>
+                                <option value="pro32">$7000.00</option>
+                                <option value="pro33">$8000.00</option>
+                                <option value="pro34">$9000.00</option>
+                                <option value="pro35">$4000.00</option>
+                                <option value="pro36">$5000.00</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Interest</h6>
+                            <input type="text" placeholder="$1500.00">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Profit</h6>
+                            <input type="text" placeholder="$1500.00">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <h6 class="profil-title">Total Returns</h6>
+                            <input type="text" placeholder="$1500.00">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}

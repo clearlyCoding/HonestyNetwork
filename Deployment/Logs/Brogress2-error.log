@@ -1,0 +1,373 @@
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+[Thu Dec 24 04:28:33.159712 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156] Internal Server Error: /
+[Thu Dec 24 04:28:33.159782 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156] Traceback (most recent call last):
+[Thu Dec 24 04:28:33.159787 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 47, in inner
+[Thu Dec 24 04:28:33.159792 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]     response = get_response(request)
+[Thu Dec 24 04:28:33.159797 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+[Thu Dec 24 04:28:33.159803 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Thu Dec 24 04:28:33.159807 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]   File "/var/www/Brogress2/main/views.py", line 138, in homepage
+[Thu Dec 24 04:28:33.159812 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]     "age_f": age_f})
+[Thu Dec 24 04:28:33.159816 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]   File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 19, in render
+[Thu Dec 24 04:28:33.159821 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]     content = loader.render_to_string(template_name, context, request, using=using)
+[Thu Dec 24 04:28:33.159825 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]   File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 61, in render_to_string
+[Thu Dec 24 04:28:33.159831 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]     template = get_template(template_name, using=using)
+[Thu Dec 24 04:28:33.159835 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]   File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 19, in get_template
+[Thu Dec 24 04:28:33.159854 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156]     raise TemplateDoesNotExist(template_name, chain=chain)
+[Thu Dec 24 04:28:33.159860 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156] django.template.exceptions.TemplateDoesNotExist: main/home.html
+[Thu Dec 24 04:28:33.159869 2020] [wsgi:error] [pid 12623:tid 140095117928192] [remote 68.194.112.101:55156] 
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+[Thu Dec 24 04:30:53.323177 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] Internal Server Error: /admin/login/
+[Thu Dec 24 04:30:53.323234 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] Traceback (most recent call last):
+[Thu Dec 24 04:30:53.323239 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 84, in _execute
+[Thu Dec 24 04:30:53.323243 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self.cursor.execute(sql, params)
+[Thu Dec 24 04:30:53.323247 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+[Thu Dec 24 04:30:53.323251 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return Database.Cursor.execute(self, query, params)
+[Thu Dec 24 04:30:53.323255 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] sqlite3.OperationalError: no such table: django_site
+[Thu Dec 24 04:30:53.323258 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] 
+[Thu Dec 24 04:30:53.323261 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] The above exception was the direct cause of the following exception:
+[Thu Dec 24 04:30:53.323264 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] 
+[Thu Dec 24 04:30:53.323267 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] Traceback (most recent call last):
+[Thu Dec 24 04:30:53.323271 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 47, in inner
+[Thu Dec 24 04:30:53.323274 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     response = get_response(request)
+[Thu Dec 24 04:30:53.323277 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+[Thu Dec 24 04:30:53.323281 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Thu Dec 24 04:30:53.323285 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+[Thu Dec 24 04:30:53.323288 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     response = view_func(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323292 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/admin/sites.py", line 410, in login
+[Thu Dec 24 04:30:53.323310 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return LoginView.as_view(**defaults)(request)
+[Thu Dec 24 04:30:53.323314 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 70, in view
+[Thu Dec 24 04:30:53.323317 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self.dispatch(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323320 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+[Thu Dec 24 04:30:53.323323 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return bound_method(*args, **kwargs)
+[Thu Dec 24 04:30:53.323326 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+[Thu Dec 24 04:30:53.323329 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return view(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323332 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+[Thu Dec 24 04:30:53.323335 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return bound_method(*args, **kwargs)
+[Thu Dec 24 04:30:53.323338 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+[Thu Dec 24 04:30:53.323342 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     response = view_func(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323345 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+[Thu Dec 24 04:30:53.323348 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return bound_method(*args, **kwargs)
+[Thu Dec 24 04:30:53.323351 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+[Thu Dec 24 04:30:53.323354 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     response = view_func(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323357 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/auth/views.py", line 63, in dispatch
+[Thu Dec 24 04:30:53.323360 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return super().dispatch(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323363 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 98, in dispatch
+[Thu Dec 24 04:30:53.323366 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return handler(request, *args, **kwargs)
+[Thu Dec 24 04:30:53.323369 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/views/generic/edit.py", line 133, in get
+[Thu Dec 24 04:30:53.323372 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self.render_to_response(self.get_context_data())
+[Thu Dec 24 04:30:53.323376 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/auth/views.py", line 97, in get_context_data
+[Thu Dec 24 04:30:53.323384 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     current_site = get_current_site(self.request)
+[Thu Dec 24 04:30:53.323387 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+[Thu Dec 24 04:30:53.323390 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return Site.objects.get_current(request)
+[Thu Dec 24 04:30:53.323393 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/sites/models.py", line 58, in get_current
+[Thu Dec 24 04:30:53.323396 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self._get_site_by_id(site_id)
+[Thu Dec 24 04:30:53.323399 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+[Thu Dec 24 04:30:53.323402 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     site = self.get(pk=site_id)
+[Thu Dec 24 04:30:53.323405 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 85, in manager_method
+[Thu Dec 24 04:30:53.323409 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Thu Dec 24 04:30:53.323412 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 425, in get
+[Thu Dec 24 04:30:53.323415 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     num = len(clone)
+[Thu Dec 24 04:30:53.323418 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 269, in __len__
+[Thu Dec 24 04:30:53.323421 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     self._fetch_all()
+[Thu Dec 24 04:30:53.323424 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 1308, in _fetch_all
+[Thu Dec 24 04:30:53.323427 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     self._result_cache = list(self._iterable_class(self))
+[Thu Dec 24 04:30:53.323430 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 53, in __iter__
+[Thu Dec 24 04:30:53.323433 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Thu Dec 24 04:30:53.323437 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+[Thu Dec 24 04:30:53.323440 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     cursor.execute(sql, params)
+[Thu Dec 24 04:30:53.323443 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 98, in execute
+[Thu Dec 24 04:30:53.323446 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return super().execute(sql, params)
+[Thu Dec 24 04:30:53.323449 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 66, in execute
+[Thu Dec 24 04:30:53.323455 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Thu Dec 24 04:30:53.323458 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Thu Dec 24 04:30:53.323461 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return executor(sql, params, many, context)
+[Thu Dec 24 04:30:53.323464 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 84, in _execute
+[Thu Dec 24 04:30:53.323467 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self.cursor.execute(sql, params)
+[Thu Dec 24 04:30:53.323470 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/utils.py", line 90, in __exit__
+[Thu Dec 24 04:30:53.323474 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Thu Dec 24 04:30:53.323477 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 84, in _execute
+[Thu Dec 24 04:30:53.323480 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return self.cursor.execute(sql, params)
+[Thu Dec 24 04:30:53.323483 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+[Thu Dec 24 04:30:53.323486 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172]     return Database.Cursor.execute(self, query, params)
+[Thu Dec 24 04:30:53.323491 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] django.db.utils.OperationalError: no such table: django_site
+[Thu Dec 24 04:30:53.323497 2020] [wsgi:error] [pid 12779:tid 140094916298496] [remote 68.194.112.101:55172] 
+[Thu Dec 24 04:34:19.280744 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] Internal Server Error: /admin/login/
+[Thu Dec 24 04:34:19.280790 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] Traceback (most recent call last):
+[Thu Dec 24 04:34:19.280795 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 84, in _execute
+[Thu Dec 24 04:34:19.280800 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self.cursor.execute(sql, params)
+[Thu Dec 24 04:34:19.280805 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+[Thu Dec 24 04:34:19.280809 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return Database.Cursor.execute(self, query, params)
+[Thu Dec 24 04:34:19.280814 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] sqlite3.OperationalError: no such table: django_site
+[Thu Dec 24 04:34:19.280818 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] 
+[Thu Dec 24 04:34:19.280822 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] The above exception was the direct cause of the following exception:
+[Thu Dec 24 04:34:19.280826 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] 
+[Thu Dec 24 04:34:19.280829 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] Traceback (most recent call last):
+[Thu Dec 24 04:34:19.280849 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 47, in inner
+[Thu Dec 24 04:34:19.280853 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     response = get_response(request)
+[Thu Dec 24 04:34:19.280856 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 179, in _get_response
+[Thu Dec 24 04:34:19.280860 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Thu Dec 24 04:34:19.280864 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+[Thu Dec 24 04:34:19.280868 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     response = view_func(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280872 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/admin/sites.py", line 410, in login
+[Thu Dec 24 04:34:19.280875 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return LoginView.as_view(**defaults)(request)
+[Thu Dec 24 04:34:19.280879 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 70, in view
+[Thu Dec 24 04:34:19.280883 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self.dispatch(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280886 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+[Thu Dec 24 04:34:19.280890 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return bound_method(*args, **kwargs)
+[Thu Dec 24 04:34:19.280894 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+[Thu Dec 24 04:34:19.280898 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return view(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280901 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+[Thu Dec 24 04:34:19.280905 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return bound_method(*args, **kwargs)
+[Thu Dec 24 04:34:19.280909 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+[Thu Dec 24 04:34:19.280912 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     response = view_func(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280916 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+[Thu Dec 24 04:34:19.280920 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return bound_method(*args, **kwargs)
+[Thu Dec 24 04:34:19.280923 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+[Thu Dec 24 04:34:19.280927 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     response = view_func(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280935 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/auth/views.py", line 63, in dispatch
+[Thu Dec 24 04:34:19.280939 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return super().dispatch(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280943 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 98, in dispatch
+[Thu Dec 24 04:34:19.280946 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return handler(request, *args, **kwargs)
+[Thu Dec 24 04:34:19.280950 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/views/generic/edit.py", line 133, in get
+[Thu Dec 24 04:34:19.280954 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self.render_to_response(self.get_context_data())
+[Thu Dec 24 04:34:19.280958 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/auth/views.py", line 97, in get_context_data
+[Thu Dec 24 04:34:19.280961 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     current_site = get_current_site(self.request)
+[Thu Dec 24 04:34:19.280965 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/sites/shortcuts.py", line 13, in get_current_site
+[Thu Dec 24 04:34:19.280969 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return Site.objects.get_current(request)
+[Thu Dec 24 04:34:19.280972 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/sites/models.py", line 58, in get_current
+[Thu Dec 24 04:34:19.280976 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self._get_site_by_id(site_id)
+[Thu Dec 24 04:34:19.280979 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/contrib/sites/models.py", line 30, in _get_site_by_id
+[Thu Dec 24 04:34:19.280983 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     site = self.get(pk=site_id)
+[Thu Dec 24 04:34:19.280987 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 85, in manager_method
+[Thu Dec 24 04:34:19.280991 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Thu Dec 24 04:34:19.280995 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 425, in get
+[Thu Dec 24 04:34:19.280999 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     num = len(clone)
+[Thu Dec 24 04:34:19.281003 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 269, in __len__
+[Thu Dec 24 04:34:19.281007 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     self._fetch_all()
+[Thu Dec 24 04:34:19.281010 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 1308, in _fetch_all
+[Thu Dec 24 04:34:19.281014 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     self._result_cache = list(self._iterable_class(self))
+[Thu Dec 24 04:34:19.281018 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 53, in __iter__
+[Thu Dec 24 04:34:19.281027 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Thu Dec 24 04:34:19.281031 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+[Thu Dec 24 04:34:19.281034 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     cursor.execute(sql, params)
+[Thu Dec 24 04:34:19.281038 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 98, in execute
+[Thu Dec 24 04:34:19.281042 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return super().execute(sql, params)
+[Thu Dec 24 04:34:19.281045 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 66, in execute
+[Thu Dec 24 04:34:19.281049 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Thu Dec 24 04:34:19.281053 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Thu Dec 24 04:34:19.281057 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return executor(sql, params, many, context)
+[Thu Dec 24 04:34:19.281060 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 84, in _execute
+[Thu Dec 24 04:34:19.281064 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self.cursor.execute(sql, params)
+[Thu Dec 24 04:34:19.281067 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/utils.py", line 90, in __exit__
+[Thu Dec 24 04:34:19.281071 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Thu Dec 24 04:34:19.281075 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/utils.py", line 84, in _execute
+[Thu Dec 24 04:34:19.281079 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return self.cursor.execute(sql, params)
+[Thu Dec 24 04:34:19.281082 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]   File "/usr/local/lib/python3.6/dist-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+[Thu Dec 24 04:34:19.281086 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178]     return Database.Cursor.execute(self, query, params)
+[Thu Dec 24 04:34:19.281092 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] django.db.utils.OperationalError: no such table: django_site
+[Thu Dec 24 04:34:19.281102 2020] [wsgi:error] [pid 12779:tid 140095109527296] [remote 68.194.112.101:55178] 
+[Thu Dec 24 04:38:54.018622 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 1 / 100
+[Thu Dec 24 04:38:54.173850 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 2 / 100
+[Thu Dec 24 04:38:54.319875 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 3 / 100
+[Thu Dec 24 04:38:54.488467 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 4 / 100
+[Thu Dec 24 04:38:54.625546 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 5 / 100
+[Thu Dec 24 04:38:54.847839 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 6 / 100
+[Thu Dec 24 04:38:55.007010 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 7 / 100
+[Thu Dec 24 04:38:55.160232 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 8 / 100
+[Thu Dec 24 04:38:55.383654 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 9 / 100
+[Thu Dec 24 04:38:55.567163 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 10 / 100
+[Thu Dec 24 04:38:55.821377 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 11 / 100
+[Thu Dec 24 04:38:56.823197 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 12 / 100
+[Thu Dec 24 04:38:57.045899 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 13 / 100
+[Thu Dec 24 04:38:57.357982 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 14 / 100
+[Thu Dec 24 04:38:57.499254 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 15 / 100
+[Thu Dec 24 04:38:57.660232 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 16 / 100
+[Thu Dec 24 04:38:57.871499 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 17 / 100
+[Thu Dec 24 04:38:58.096377 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 18 / 100
+[Thu Dec 24 04:38:58.316052 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 19 / 100
+[Thu Dec 24 04:38:58.760613 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 20 / 100
+[Thu Dec 24 04:38:59.055645 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 21 / 100
+[Thu Dec 24 04:38:59.245916 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 22 / 100
+[Thu Dec 24 04:38:59.407729 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 23 / 100
+[Thu Dec 24 04:38:59.578230 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 24 / 100
+[Thu Dec 24 04:38:59.764958 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 25 / 100
+[Thu Dec 24 04:38:59.935467 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 26 / 100
+[Thu Dec 24 04:39:00.187115 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 27 / 100
+[Thu Dec 24 04:39:00.424223 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 28 / 100
+[Thu Dec 24 04:39:00.613543 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 29 / 100
+[Thu Dec 24 04:39:02.071929 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 30 / 100
+[Thu Dec 24 04:39:02.418102 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 31 / 100
+[Thu Dec 24 04:39:02.658598 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 32 / 100
+[Thu Dec 24 04:39:02.887204 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 33 / 100
+[Thu Dec 24 04:39:03.070350 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 34 / 100
+[Thu Dec 24 04:39:03.262173 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 35 / 100
+[Thu Dec 24 04:39:03.456215 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 36 / 100
+[Thu Dec 24 04:39:03.638083 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 37 / 100
+[Thu Dec 24 04:39:03.875039 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 38 / 100
+[Thu Dec 24 04:39:04.073034 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 39 / 100
+[Thu Dec 24 04:39:04.210068 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 40 / 100
+[Thu Dec 24 04:39:04.416087 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 41 / 100
+[Thu Dec 24 04:39:05.254587 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 42 / 100
+[Thu Dec 24 04:39:05.561667 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 43 / 100
+[Thu Dec 24 04:39:05.793902 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 44 / 100
+[Thu Dec 24 04:39:05.935911 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 45 / 100
+[Thu Dec 24 04:39:06.242186 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 46 / 100
+[Thu Dec 24 04:39:06.434704 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 47 / 100
+[Thu Dec 24 04:39:06.648134 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 48 / 100
+[Thu Dec 24 04:39:07.055854 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 49 / 100
+[Thu Dec 24 04:39:07.226229 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 50 / 100
+[Thu Dec 24 04:39:07.365251 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 51 / 100
+[Thu Dec 24 04:39:07.529939 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 52 / 100
+[Thu Dec 24 04:39:07.909985 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 53 / 100
+[Thu Dec 24 04:39:08.114671 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 54 / 100
+[Thu Dec 24 04:39:08.439973 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 55 / 100
+[Thu Dec 24 04:39:08.601702 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 56 / 100
+[Thu Dec 24 04:39:08.996537 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 57 / 100
+[Thu Dec 24 04:39:09.151051 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 58 / 100
+[Thu Dec 24 04:39:09.420045 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 59 / 100
+[Thu Dec 24 04:39:09.642026 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 60 / 100
+[Thu Dec 24 04:39:09.817296 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 61 / 100
+[Thu Dec 24 04:39:10.141815 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 62 / 100
+[Thu Dec 24 04:39:10.364914 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 63 / 100
+[Thu Dec 24 04:39:10.518819 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 64 / 100
+[Thu Dec 24 04:39:11.165981 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 65 / 100
+[Thu Dec 24 04:39:11.420737 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 66 / 100
+[Thu Dec 24 04:39:11.656365 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 67 / 100
+[Thu Dec 24 04:39:11.797724 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 68 / 100
+[Thu Dec 24 04:39:11.959170 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 69 / 100
+[Thu Dec 24 04:39:12.206419 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 70 / 100
+[Thu Dec 24 04:39:12.451541 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 71 / 100
+[Thu Dec 24 04:39:12.620052 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 72 / 100
+[Thu Dec 24 04:39:12.865117 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 73 / 100
+[Thu Dec 24 04:39:13.375456 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 74 / 100
+[Thu Dec 24 04:39:13.724512 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 75 / 100
+[Thu Dec 24 04:39:13.953353 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 76 / 100
+[Thu Dec 24 04:39:14.106266 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 77 / 100
+[Thu Dec 24 04:39:14.316603 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 78 / 100
+[Thu Dec 24 04:39:15.019668 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 79 / 100
+[Thu Dec 24 04:39:15.269972 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 80 / 100
+[Thu Dec 24 04:39:15.588480 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 81 / 100
+[Thu Dec 24 04:39:15.767194 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 82 / 100
+[Thu Dec 24 04:39:16.072582 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 83 / 100
+[Thu Dec 24 04:39:16.268845 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 84 / 100
+[Thu Dec 24 04:39:16.422222 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 85 / 100
+[Thu Dec 24 04:39:16.670527 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 86 / 100
+[Thu Dec 24 04:39:17.012528 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 87 / 100
+[Thu Dec 24 04:39:17.240610 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 88 / 100
+[Thu Dec 24 04:39:17.409722 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 89 / 100
+[Thu Dec 24 04:39:18.325277 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 90 / 100
+[Thu Dec 24 04:39:18.761024 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 91 / 100
+[Thu Dec 24 04:39:19.109032 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 92 / 100
+[Thu Dec 24 04:39:19.342386 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 93 / 100
+[Thu Dec 24 04:39:19.705322 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 94 / 100
+[Thu Dec 24 04:39:19.905912 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 95 / 100
+[Thu Dec 24 04:39:20.345635 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 96 / 100
+[Thu Dec 24 04:39:20.565925 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 97 / 100
+[Thu Dec 24 04:39:20.920733 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 98 / 100
+[Thu Dec 24 04:39:21.195743 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 99 / 100
+[Thu Dec 24 04:39:21.511903 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] 100 / 100
+[Thu Dec 24 04:39:23.092042 2020] [wsgi:error] [pid 12780:tid 140094916298496] [remote 68.194.112.101:55201] Total of  65  :  42  did not get added
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+[Thu Dec 24 04:51:40.973391 2020] [wsgi:error] [pid 13038:tid 140094949902080] [remote 185.220.100.245:15646] Not Found: /.env
+[Thu Dec 24 04:51:40.983949 2020] [wsgi:error] [pid 13037:tid 140095092725504] [remote 185.220.100.245:17600] Not Found: /.git/config
+[Thu Dec 24 04:51:40.990947 2020] [wsgi:error] [pid 13037:tid 140094916298496] [remote 185.220.100.245:8254] Not Found: /v2/_catalog
+[Thu Dec 24 04:52:32.574076 2020] [wsgi:error] [pid 13037:tid 140094933100288] [remote 85.248.227.165:19924] Not Found: /.env
+[Thu Dec 24 04:52:32.578920 2020] [wsgi:error] [pid 13038:tid 140094941501184] [remote 85.248.227.165:10322] Not Found: /.git/config
+[Thu Dec 24 04:52:32.634635 2020] [wsgi:error] [pid 13038:tid 140094966703872] [remote 85.248.227.165:19444] Not Found: /api/v1/pods
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <bound method BaseEventLoop.__del__ of <_UnixSelectorEventLoop running=False closed=False debug=False>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/base_events.py", line 526, in __del__
+NameError: name 'ResourceWarning' is not defined

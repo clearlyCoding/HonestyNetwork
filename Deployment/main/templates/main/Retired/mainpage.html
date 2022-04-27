@@ -1,0 +1,37 @@
+<!-- {% load static %}
+<main>
+	<body>
+		<header>
+			{% include  "main/includes/header.html" %}
+		</header>
+		
+		{% include  "main/includes/navigation.html" %}
+
+		{% if curr_ == 'home'%}
+			<div class = "row">
+				<div class= "parallax-container col s12">
+						<div class="parallax"><img src="{% static 'main/images/finfre.svg' %}">
+						</div>
+				</div>
+			</div>
+		{% else %}	
+			<div class = 'container'>
+
+		{% endif %}
+
+		{% block content %}
+		{% endblock %}
+
+		{%if not curr_ == 'home' %}
+			</div>
+		{%endif%}
+		{% if curr_ == 'home'%}
+			<script>
+				$(document).ready(function(){
+					$('.parallax').parallax();
+				});
+			</script>
+		{% endif %}
+	</body>
+</main>
+{% include  "main/includes/footer.html" %}	 -->
